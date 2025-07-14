@@ -46,21 +46,9 @@ public class EditorSettingsWindow : EditorWindow
 
         if (Renderer.target.id != -1)
             ImGui.Text("Render Size: " + Renderer.target.Width + " " + Renderer.target.Height);
+        
 
-
-        ImGui.End();
-
-        ImGui.Begin("Scene Settings");
-
-
-
-        System.Numerics.Vector2 val = editor.GetWindow<SceneWindow>().Size;
-        ImGui.DragFloat2("Size", ref val);
-        editor.GetWindow<SceneWindow>().Size = new Vector2I((int)val.X, (int)val.Y);
-
-        System.Numerics.Vector3 col = new Vector3(editor.GetWindow<SceneWindow>().BackgroundColor.r / 255f, editor.GetWindow<SceneWindow>().BackgroundColor.g / 255f, editor.GetWindow<SceneWindow>().BackgroundColor.b / 255f);
-        ImGui.ColorEdit3("Clear Color", ref col);
-        editor.GetWindow<SceneWindow>().BackgroundColor = new Color(col.X * 255f, col.Y * 255f, col.Z * 255f);
+        
 
     }
 }

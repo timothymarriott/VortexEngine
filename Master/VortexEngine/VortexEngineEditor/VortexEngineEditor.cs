@@ -196,6 +196,7 @@ public class VortexEngineEditor : VortexEngine
         style.FrameRounding = 4;
 
         GetWindow<EditorSettingsWindow>();
+        GetWindow<SceneSettingsWindow>();
         GetWindow<FileBrowserWindow>();
         GetWindow<GameWindow>();
         GetWindow<HierarchyWindow>();
