@@ -39,6 +39,8 @@ public class VortexEngineEditor : VortexEngine
 
     public static bool SceneReloadQueued = false;
 
+    public static string SolutionDir;
+    
     public T GetWindow<T>() where T : EditorWindow, new()
     {
         if (!windows.ContainsKey(typeof(T)))
@@ -134,6 +136,7 @@ public class VortexEngineEditor : VortexEngine
         {
             EditorDataPath = File.ReadAllText(Path.Join(EditorDataPath, "ref.txt"));
         }
+        
         
         
 
@@ -278,22 +281,9 @@ public class VortexEngineEditor : VortexEngine
 
                 if (ImGui.BeginMenu("File"))
                 {
+                    ImGui.BeginDisabled();
                     if (ImGui.BeginMenu("Build") && !GameRunning)
-                    {
-                        
-                        int index = 0;
-                        foreach (var targ in Enum.GetNames<BuildTarget>())
-                        {
-                            bool v = selectedBuildTarget == index;
-                            ImGui.Checkbox(targ, ref v);
-                            if (v)
-                            {
-                                selectedBuildTarget = index;
-                            }
-
-                            index++;
-                        }
-                        
+                    {   
                         if (ImGui.MenuItem("Build"))
                         {
                             
@@ -302,6 +292,7 @@ public class VortexEngineEditor : VortexEngine
                         }
                         ImGui.EndMenu();
                     }
+                    ImGui.EndDisabled();
                     ImGui.EndMenu();
                 }
 
