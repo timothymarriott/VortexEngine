@@ -1,0 +1,6 @@
+[submodule "Master/VortexEngine/lib/VelcroPhysics"]
+	path = Master/VortexEngine/lib/VelcroPhysics
+	url = https://github.com/damian-666/VelcroPhysics
+[submodule "Master/VortexEngine/lib/rlImGui-cs"]
+	path = Master/VortexEngine/lib/rlImGui-cs
+	url = https://github.com/timothymarriott/rlImGui-cs.git
