@@ -1,0 +1,365 @@
+{
+  "Bodies": {
+    "$id": "1",
+    "$values": [
+      {
+        "$id": "2",
+        "ID": "72d5d36f-d7d6-43f0-bef1-0cb0c9cdded3",
+        "Name": "Camera",
+        "Components": {
+          "$id": "3",
+          "$values": [
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Transform",
+                "Fullname": "VortexEngine.Transform",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Transform": {
+                "Position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "Scale": {
+                  "x": 1,
+                  "y": 1
+                },
+                "Rotation": 0,
+                "Parent": null
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Camera",
+                "Fullname": "VortexEngine.Camera",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Camera": {
+                "Size": {
+                  "x": 302,
+                  "y": 180
+                },
+                "Scale": {
+                  "x": 1,
+                  "y": 1
+                },
+                "ClearColor": {
+                  "r": 219,
+                  "g": 120,
+                  "b": 101,
+                  "a": 255
+                }
+              }
+            }
+          ]
+        },
+        "Parent": null,
+        "SortingOrder": 0
+      },
+      {
+        "$id": "4",
+        "ID": "bf5f299b-28fa-4d14-b41f-fe086d548d8f",
+        "Name": "Test",
+        "Components": {
+          "$id": "5",
+          "$values": [
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Transform",
+                "Fullname": "VortexEngine.Transform",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Transform": {
+                "Position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "Scale": {
+                  "x": 1,
+                  "y": 1
+                },
+                "Rotation": 0,
+                "Parent": null
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "TimeScale",
+                "Fullname": "VortexEngine.Sample.TimeScale",
+                "Assembly": "Project"
+              },
+              "TimeScale": {
+                "tscale": 1
+              }
+            }
+          ]
+        },
+        "Parent": null,
+        "SortingOrder": 0
+      },
+      {
+        "$id": "6",
+        "ID": "4e578de3-29b4-471e-81b4-8fea814a91f1",
+        "Name": "Player",
+        "Components": {
+          "$id": "7",
+          "$values": [
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Transform",
+                "Fullname": "VortexEngine.Transform",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Transform": {
+                "Position": {
+                  "x": 0,
+                  "y": 25
+                },
+                "Scale": {
+                  "x": 4,
+                  "y": 4
+                },
+                "Rotation": 41,
+                "Parent": null
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Player",
+                "Fullname": "Player",
+                "Assembly": "Project"
+              },
+              "Player": {
+                "scoreText": "7ee6dc2f-a7e4-4065-83cb-581aaca46553",
+                "score": 0,
+                "KillPlane": -100,
+                "rb": {
+                  "type": {
+                    "$id": "1",
+                    "Name": "Rigidbody",
+                    "Fullname": "VortexEngine.Rigidbody",
+                    "Assembly": "VortexEngineInternal"
+                  },
+                  "body": "4e578de3-29b4-471e-81b4-8fea814a91f1"
+                },
+                "RedballPrefab": null,
+                "SpawnSpeed": 1,
+                "YellowSpawnSpeed": 2,
+                "SpawnRange": 100
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "CircleCollider",
+                "Fullname": "VortexEngine.CircleCollider",
+                "Assembly": "VortexEngineInternal"
+              },
+              "CircleCollider": {
+                "_radius": 4,
+                "Radius": 4
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Rigidbody",
+                "Fullname": "VortexEngine.Rigidbody",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Rigidbody": {
+                "Static": false,
+                "GravityScale": 0.3,
+                "FreezeRotation": false,
+                "Mass": 0.8
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Animator",
+                "Fullname": "Animator",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Animator": {}
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "SpriteCircle",
+                "Fullname": "VortexEngine.SpriteCircle",
+                "Assembly": "VortexEngineInternal"
+              },
+              "SpriteCircle": {
+                "tint": {
+                  "r": 181,
+                  "g": 254,
+                  "b": 242,
+                  "a": 255
+                }
+              }
+            }
+          ]
+        },
+        "Parent": null,
+        "SortingOrder": 0
+      },
+      {
+        "$id": "8",
+        "ID": "7ee6dc2f-a7e4-4065-83cb-581aaca46553",
+        "Name": "Score Text",
+        "Components": {
+          "$id": "9",
+          "$values": [
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Transform",
+                "Fullname": "VortexEngine.Transform",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Transform": {
+                "Position": {
+                  "x": 3740,
+                  "y": 0
+                },
+                "Scale": {
+                  "x": 1,
+                  "y": 1
+                },
+                "Rotation": 0,
+                "Parent": null
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "TextRenderer",
+                "Fullname": "VortexEngine.TextRenderer",
+                "Assembly": "VortexEngineInternal"
+              },
+              "TextRenderer": {
+                "Text": "0",
+                "FontSize": 280,
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 255
+                }
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "SortingOrder",
+                "Fullname": "VortexEngine.SortingOrder",
+                "Assembly": "VortexEngineInternal"
+              },
+              "SortingOrder": {
+                "sortingOrder": 16
+              }
+            }
+          ]
+        },
+        "Parent": null,
+        "SortingOrder": 0
+      },
+      {
+        "$id": "10",
+        "ID": "2d612162-e744-4b1b-bfa5-63db34f33904",
+        "Name": "Platform",
+        "Components": {
+          "$id": "11",
+          "$values": [
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Transform",
+                "Fullname": "VortexEngine.Transform",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Transform": {
+                "Position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "Scale": {
+                  "x": 205,
+                  "y": 9
+                },
+                "Rotation": 0,
+                "Parent": null
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "SpriteRectangle",
+                "Fullname": "VortexEngine.SpriteRectangle",
+                "Assembly": "VortexEngineInternal"
+              },
+              "SpriteRectangle": {
+                "tint": {
+                  "r": 244,
+                  "g": 183,
+                  "b": 145,
+                  "a": 255
+                }
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Platform",
+                "Fullname": "Platform",
+                "Assembly": "Project"
+              },
+              "Platform": {}
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Rigidbody",
+                "Fullname": "VortexEngine.Rigidbody",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Rigidbody": {
+                "Static": false,
+                "GravityScale": 0,
+                "FreezeRotation": false,
+                "Mass": 1
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "BoxCollider",
+                "Fullname": "VortexEngine.BoxCollider",
+                "Assembly": "VortexEngineInternal"
+              },
+              "BoxCollider": {
+                "_size": {
+                  "x": 205,
+                  "y": 9
+                },
+                "Size": {
+                  "x": 205,
+                  "y": 9
+                }
+              }
+            }
+          ]
+        },
+        "Parent": null,
+        "SortingOrder": 0
+      }
+    ]
+  }
+}

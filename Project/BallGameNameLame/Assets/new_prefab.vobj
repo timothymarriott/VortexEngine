@@ -1,0 +1,1 @@
+{"Bodies":[{"transform":{"Position":{"x":0,"y":0},"Scale":{"x":1,"y":1},"Rotation":0},"ID":"834aa13a-e376-4189-a62c-1cd1631c6758","Name":"NewPrefab","Components":[{"type":{"Name":"Transform","Fullname":"VortexEngine.Transform","Assembly":"VortexEngineInternal"},"Transform":{"Position":{"x":0,"y":0},"Scale":{"x":1,"y":1},"Rotation":0}}],"Parent":null,"Children":[]}]}

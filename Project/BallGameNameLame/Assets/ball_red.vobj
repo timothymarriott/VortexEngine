@@ -1,0 +1,109 @@
+{
+  "Bodies": [
+    {
+      "transform": {
+        "Position": {
+          "x": 0,
+          "y": 10
+        },
+        "Scale": {
+          "x": 4,
+          "y": 4
+        },
+        "Rotation": 0,
+        "Parent": null
+      },
+      "ID": "4e578de3-29b4-471e-81b4-8fea814a91f1",
+      "Name": "RedBall",
+      "Components": [
+        {
+          "type": {
+            "Name": "Transform",
+            "Fullname": "VortexEngine.Transform",
+            "Assembly": "VortexEngineInternal"
+          },
+          "Transform": {
+            "Position": {
+              "x": 0,
+              "y": 10
+            },
+            "Scale": {
+              "x": 4,
+              "y": 4
+            },
+            "Rotation": 0,
+            "Parent": null
+          }
+        },
+        {
+          "type": {
+            "Name": "CircleCollider",
+            "Fullname": "VortexEngine.CircleCollider",
+            "Assembly": "VortexEngineInternal"
+          },
+          "CircleCollider": {
+            "Radius": 4
+          }
+        },
+        {
+          "type": {
+            "Name": "Rigidbody",
+            "Fullname": "VortexEngine.Rigidbody",
+            "Assembly": "VortexEngineInternal"
+          },
+          "Rigidbody": {
+            "Static": false,
+            "GravityScale": 0.3,
+            "FreezeRotation": true,
+            "Mass": 1.5,
+            "position": {
+              "x": 0,
+              "y": 10
+            },
+            "rotation": 0,
+            "velocity": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        },
+        {
+          "type": {
+            "Name": "Animator",
+            "Fullname": "Animator",
+            "Assembly": "VortexEngineInternal"
+          },
+          "Animator": {}
+        },
+        {
+          "type": {
+            "Name": "SpriteCircle",
+            "Fullname": "VortexEngine.SpriteCircle",
+            "Assembly": "VortexEngineInternal"
+          },
+          "SpriteCircle": {
+            "tint": {
+              "r": 255,
+              "g": 125,
+              "b": 103,
+              "a": 255
+            }
+          }
+        },
+        {
+          "type": {
+            "Name": "Ball",
+            "Fullname": "Ball",
+            "Assembly": "Project"
+          },
+          "Ball": {
+            "IsPoint": false
+          }
+        }
+      ],
+      "Parent": null,
+      "Children": [],
+      "SortingOrder": 0
+    }
+  ]
+}

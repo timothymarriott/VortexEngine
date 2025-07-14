@@ -1,0 +1,101 @@
+{
+  "Bodies": {
+    "$id": "1",
+    "$values": [
+      {
+        "$id": "2",
+        "ID": "4e578de3-29b4-471e-81b4-8fea814a91f1",
+        "Name": "RedBall",
+        "Components": {
+          "$id": "3",
+          "$values": [
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Transform",
+                "Fullname": "VortexEngine.Transform",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Transform": {
+                "Position": {
+                  "x": 0,
+                  "y": 10
+                },
+                "Scale": {
+                  "x": 4,
+                  "y": 4
+                },
+                "Rotation": 0,
+                "Parent": null
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "CircleCollider",
+                "Fullname": "VortexEngine.CircleCollider",
+                "Assembly": "VortexEngineInternal"
+              },
+              "CircleCollider": {
+                "_radius": 4,
+                "Radius": 4
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Rigidbody",
+                "Fullname": "VortexEngine.Rigidbody",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Rigidbody": {
+                "Static": false,
+                "GravityScale": 0.3,
+                "FreezeRotation": true,
+                "Mass": 1.5
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Animator",
+                "Fullname": "Animator",
+                "Assembly": "VortexEngineInternal"
+              },
+              "Animator": {}
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "SpriteCircle",
+                "Fullname": "VortexEngine.SpriteCircle",
+                "Assembly": "VortexEngineInternal"
+              },
+              "SpriteCircle": {
+                "tint": {
+                  "r": 237.68355,
+                  "g": 255,
+                  "b": 103.00001,
+                  "a": 255
+                }
+              }
+            },
+            {
+              "type": {
+                "$id": "1",
+                "Name": "Ball",
+                "Fullname": "Ball",
+                "Assembly": "Project"
+              },
+              "Ball": {
+                "IsPoint": true
+              }
+            }
+          ]
+        },
+        "Parent": null,
+        "SortingOrder": 0
+      }
+    ]
+  }
+}
